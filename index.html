@@ -29,9 +29,7 @@
         <div v-if="todo.isDone" class="todo-text checked">{{todo.text}}</div>
         <div v-else class="todo-text">{{todo.text}}</div>
 
-        <div v-if="todo.isDone">
-          <div class="check-mark">&#x2713;</div>
-        </div>
+        <div v-if="todo.isDone" class="check-mark">&#x2713;</div>
       </div>
     </section>
   </div>
